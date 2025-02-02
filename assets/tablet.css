@@ -1,0 +1,161 @@
+/* min-660px */
+
+:root {
+    --font-size-xl: 3rem;
+    --font-size-l: 2rem;
+    --font-size-s: 1.2rem;
+}
+
+/* HEADER */
+
+.header {
+    background-color: transparent;
+    backdrop-filter: blur(var(--blur-value));
+}
+
+.nav {
+    padding-bottom: 0;
+    background-color: transparent;
+    height: 100%;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.nav-content {
+    padding-bottom: 0;
+    padding-top: 1rem;
+    background-color: transparent;
+    height: 100%;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+
+}
+
+.navigation {
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 0;
+    display: flex;
+    height: auto;
+    font-weight: 600;
+    font-size: var(--font-size-s);
+}
+
+.navigation a {
+    color: var(--black);
+}
+
+.hamburg-icon {
+    display: none;
+}
+
+/* HERO */
+
+.intro-hero {
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-hero {
+    text-align: center;
+    font-size: 6rem;
+    padding: 0 20%;
+}
+
+.container-hero {
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+
+/* PRODUCTS */
+
+.section-products {
+    max-width: 920px;
+}
+
+.title {
+    padding-top: 6rem;
+    margin-bottom: 38px;
+}
+.p-title {
+    padding: 0 0.5rem;
+    height: 58px;
+}
+
+.section-prd {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 2rem;
+    max-width: 920px;
+    margin: auto;
+}
+
+/* CARACTERISTICAS */
+
+.section-features {
+    max-width: 920px;
+}
+
+.section-crc {
+    display: grid;
+    gap: 2rem;
+    max-width: 920px;
+    margin: auto;
+}
+
+/* VIDEO */
+
+.section-video {
+    display: flex;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+
+.section-video iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* PLANS */
+
+.section-pricing {
+    max-width: 920px;
+}
+
+.plan {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* EQUIPO */
+
+.section-equipo {
+    max-width: 920px;
+}
+
+/* CONTACT */
+
+.section-contact {
+    text-align: center;
+    max-width: 920px;
+}
